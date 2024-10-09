@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.container}>
-        <h2 className={styles.logo}>Food Paradise</h2>
+        <div><img src="images/logo.png" alt="" width={150} /></div
         <p className={styles.description}>
           Your go-to place for delicious recipes and gourmet experiences.
         </p>
