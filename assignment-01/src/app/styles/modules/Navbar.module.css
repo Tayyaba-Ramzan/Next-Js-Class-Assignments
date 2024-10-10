@@ -1,0 +1,92 @@
+.nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  height: 100px;
+  align-items: center;
+  background-color: black;
+  padding: 0;
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav ul li a {
+  color: white;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s;
+}
+
+.nav ul li a:hover {
+  border-color: white;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    font-size: 40px;
+
+  }
+
+  .nav ul {
+    gap: 30px;
+
+  }
+
+  .nav ul li a {
+    font-size: 1rem;
+
+  }
+}
+
+
+@media (max-width: 480px) {
+  .logo {
+    font-size: 35px;
+
+  }
+
+  .nav ul {
+    flex-direction: column;
+    gap: 20px;
+    height: auto;
+    padding: 20px;
+  }
+
+  .nav ul li a {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 412px) {
+  .logo {
+    font-size: 30px
+  }
+
+  .nav ul {
+    gap: 15px;
+    padding: 15px;
+  }
+
+  .nav ul li a {
+    font-size: 0.9rem;
+  }
+}
+
+
+@media (max-width: 360px) {
+  .logo {
+    font-size: 25px;
+  }
+
+  .nav ul {
+    gap: 10px;
+
+    padding: 10px;
+  }
+
+  .nav ul li a {
+    font-size: 0.8rem;
+  }
+}
