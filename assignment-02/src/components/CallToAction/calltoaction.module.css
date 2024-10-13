@@ -1,0 +1,50 @@
+.cta {
+  padding: 5rem 2rem;
+  background-color: #101820;
+  color: white;
+  text-align: center;
+}
+
+.cta h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.cta p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #f2aa4c;
+}
+
+.ctaButton {
+  padding: 1rem 2.5rem;
+  background-color: #f2aa4c;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .cta h2 {
+    font-size: 2rem;
+  }
+
+  .cta p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 344px) {
+  .cta h2 {
+    font-size: 1.8rem;
+  }
+
+  .cta p {
+    font-size: 1rem;
+  }
+
+  .ctaButton {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+  }
+}
