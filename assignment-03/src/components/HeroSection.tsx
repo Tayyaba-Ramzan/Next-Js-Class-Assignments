@@ -9,6 +9,7 @@ const HeroSection = () => {
                 backgroundImage: "url('/hero-img.jpg')"
             }}
         >
+            <div
             className="text-center">
                 <h1 className="text-6xl font-bold text-pink-600 mb-4">Unleash Your Beauty</h1>
                 <p className="text-4xl text-pink-600 mb-8 font-semibold">Enhancing Your Look with Professional Makeup Services</p>
