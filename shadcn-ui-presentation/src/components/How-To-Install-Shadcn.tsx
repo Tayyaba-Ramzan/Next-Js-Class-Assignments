@@ -1,4 +1,3 @@
-// components/Slide4.js
 export default function Slide4() {
     return (
         <div id="how-to-install-shadcn" className="flex flex-col items-center justify-center bg-white text-gray-900 p-4 sm:p-8">
