@@ -1,4 +1,3 @@
-// components/Slide3.js
 export default function KeyFeatures() {
     return (
         <div id="key-features" className="flex flex-col items-center justify-center bg-white text-gray-800 p-8 pt-20">
