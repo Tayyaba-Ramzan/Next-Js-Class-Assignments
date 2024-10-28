@@ -27,9 +27,10 @@ const Navbar = () => {
                 </div>
 
                 <ul
-                    className={`fixed top-16 right-0 bg-green-800 p-14 z-50 w-48 transform transition-transform duration-500 ${isOpen ? 'translate-x-0' : 'translate-x-full'
-                        } md:hidden flex flex-col justify-center items-center`}
-                >
+                    className={`fixed top-16 right-0 bg-gradient-to-r from-purple-900 to-green-800 p-6 sm:p-10 md:p-14 z-50 w-40 sm:w-48 transform transition-transform duration-500 ${
+        isOpen ? 'translate-x-0' : 'translate-x-full'
+    } md:hidden flex flex-col justify-center items-center`}
+>
                     <li className="py-2 text-white">
                         <Link href="#intro">Intro</Link>
                     </li>
