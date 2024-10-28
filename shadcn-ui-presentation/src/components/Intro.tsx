@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Intro() {
     return (
-        <div id="intro" className="relative flex flex-col items-center justify-center h-screen bg-white text-black px-4">
+        <div id="intro" className="relative flex flex-col items-center justify-center mt-32 bg-white text-black px-4">
             <div className="relative flex flex-col items-center z-10">
                 <Image
                     src={"/images/img.png"}
